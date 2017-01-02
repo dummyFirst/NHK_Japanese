@@ -1,0 +1,15 @@
+﻿DriveFolder
+
+- provides methods to list or query the contents of the folder, or create new resources within it.
+
+- to retrieve a DriveFolder from a known Drive ID, asDriveFolder( ).
+
+* listChilderen(GoogleApiClient client)
+
+
+ResultCallback
+- An interface for receiving a Result from a PendingResult as an asynchronous callback.
+
+- onResult(Result result)
+ : called when the Result is ready
+
